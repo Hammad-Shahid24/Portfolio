@@ -1,11 +1,11 @@
 import { FC } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Gallery from "./components/Gallery";
 import Message from "./components/Message";
 import Footer from "./components/Footer";
 import GetInTouch from "./components/GetInTouch";
 import { Element } from "react-scroll";
+import TechStack from "./components/TechStack";
 
 const App: FC = () => {
   return (
@@ -16,9 +16,10 @@ const App: FC = () => {
       <Element name="hero">
         <Hero />
       </Element>
-      <Element name="gallery">
-        <Gallery />
+      <Element name="techstack">
+        <TechStack />
       </Element>
+
       <Element name="message">
         <Message />
       </Element>

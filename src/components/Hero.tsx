@@ -26,13 +26,9 @@ const Hero: FC = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-48 md:mt-24">
+    <div className="max-w-screen-xl mx-auto mt-24 md:mt-24">
       <div className="flex flex-col sm:flex-row p-4 sm:p-0 justify-between items-center mx-4">
-        <div className="w-2/3 sm:w-1/3 text-center sm:text-left ">
-          <div
-            className="
-        pl-40"
-          ></div>
+        <div className="w-full sm:w-2/3 text-left ">
           <p className="block text-3xl text-left w-full text-gray-600 font-semibold mt-4 mb-1 rounded">
             <span ref={typedElement}></span>
           </p>
@@ -71,7 +67,7 @@ const Hero: FC = () => {
             </span>
           </div>
         </div>
-        <div className="w-2/3">
+        <div className="w-full sm:2/3">
           <Lottie
             animationData={personAnimation}
             loop
