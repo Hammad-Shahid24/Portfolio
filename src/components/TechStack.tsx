@@ -27,7 +27,7 @@ const skills = [
 
 const TechStack: FC = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-0 sm:mt-20 p-4 ">
+    <div className="max-w-screen-xl mx-auto mt-0 sm:mt-20 px-4 pt-4 ">
       <h2 className="text-2xl sm:text-4xl mb-8 sm:mb-0 font-spaceGrotesk text-center font-semibold">
         My Tech Stack
       </h2>

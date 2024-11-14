@@ -16,8 +16,8 @@ const Message: FC = () => {
           ></path>
         </svg>
         <p className="text-center text-white text-3xl font-bold">
-          "Design is not just what it looks like and feels like. <br />
-          Design is how it works."
+          "The only way to do great work is to love what you do. <br />
+          Keep pushing your limits and never stop learning."
         </p>
         <div className="flex justify-center items-center mt-6">
           <p className="text-center text-white font-semibold text-lg">

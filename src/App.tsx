@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import GetInTouch from "./components/GetInTouch";
 import { Element } from "react-scroll";
 import TechStack from "./components/TechStack";
-import Portfolio from "./components/Portfolio"
+import Portfolio from "./components/Portfolio";
 
 const App: FC = () => {
   return (
